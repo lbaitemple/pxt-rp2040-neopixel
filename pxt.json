@@ -3,16 +3,15 @@
     "version": "0.0.0",
     "description": "",
     "dependencies": {
-        "adafruit-metro-m0-express": "*"
+        "rpi-pico": "*",
+        "ws2812b": "lbaitemple/pxt-rp2040-ws2812b#master"
     },
     "files": [
         "README.md",
         "main.blocks",
         "main.ts"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
+    "testFiles": [],
     "public": true,
     "targetVersions": {
         "target": "0.15.58",
@@ -21,5 +20,5 @@
     "supportedTargets": [
         "maker"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
