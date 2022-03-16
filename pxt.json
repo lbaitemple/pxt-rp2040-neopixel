@@ -8,8 +8,8 @@
     },
     "files": [
         "README.md",
-        "main.blocks",
-        "main.ts"
+        "main.ts",
+        "neopixel.ts"
     ],
     "testFiles": [],
     "public": true,
